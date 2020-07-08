@@ -26,6 +26,9 @@ export default function Contact() {
                     <img alt="Saad Working" src={require("../../assets/images/adeel.jpg")}></img>
                 </div>
             </div>
+
+            
+
         </div>
         </Fade>
     );
