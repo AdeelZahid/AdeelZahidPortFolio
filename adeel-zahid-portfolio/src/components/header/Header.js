@@ -1,13 +1,14 @@
 import React from 'react'
 import './Header.css'
+import {Fade} from "react-reveal";
 
 const Header = () => {
     // const exp = workExperiences.viewExperiences;
     return (
-    //   <Fade top duration={1000} distance="20px">
+       <Fade top duration={1000} distance="20px">
       <div>
         <header className="header">
-          <a href="" className="logo">
+          <a href="#" className="logo">
             <span className="grey-color"> &lt;</span>
             <span className="logo-name">Adeel Zahid</span>
             <span className="grey-color">/&gt;</span>
@@ -46,7 +47,7 @@ const Header = () => {
           </ul>
         </header>
       </div>
-    //   </Fade>
+       </Fade>
     );
 }
 
