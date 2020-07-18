@@ -22,7 +22,7 @@
 
 .startup-project-text {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .project-card-description {
@@ -40,5 +40,12 @@
   .project-subtitle{
     font-size: 16px;
     text-align: center;
+  }
+  .startup-project-text {
+   flex-direction: column-reverse;
+  }
+  .saaya-health-div{
+    margin-top: -8px;
+    margin-bottom: -50px;
   }
 }
